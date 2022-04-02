@@ -1780,64 +1780,6 @@ display: inline-block;
 }
 
 /* ==============================
-  19. Latest Blog styles
-============================== */
-
-
-.latest-blog {
-  background: #10151B;
-
-}
-.single-blog-post .img-box,
-.single-blog-post .content-box {
-  display: table-cell;
-  vertical-align: middle;
-}
-.single-blog-post .img-box {
-  width: 270px;
-}
-.single-blog-post .content-box {
-  padding-left: 30px;
-}
-.single-blog-post .content-box .date {
-  font-size: 18px;
-  color: #d50000;
-  margin-bottom: 22px;
-}
-.single-blog-post .content-box .date span {
-  font-size: 45px;
-  color: #d50000;
-}
-.single-blog-post .content-box h3 {
-  color: #D3D3D3;
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 14px;
-  font-family: 'Open Sans', sans-serif;
-}
-.single-blog-post .content-box p {
-  color: #8E8D8D;
-}
-.single-blog-post .content-box a.thm-btn {
-  font-size: 12px;
-  padding: 4px 0;
-  padding-left: 22px;
-  padding-right: 20px;
-  margin-top: 9px;
-}
-.single-blog-post .content-box a.thm-btn i {
-  border: none;
-  font-size: 12px;
-  padding: 0;
-  margin: 0;
-  padding-left: 15px;
-}
-.single-blog-post .content-box a.thm-btn i:after {
-  display: none;
-}
-
-/* ==============================
   20. Client Carousel styles
 ============================== */
 
