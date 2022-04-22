@@ -1,6 +1,6 @@
-h3{color: royalblue ;}                /* for all h3*/
+h3{color: #2e7e03 ;}                /* for all h3*/
 h4{color: maroon;}                           /* for all h4*/
-body {background-color: #0ece0e;}      /* for entire body*/
+body {background-color: #10151b;}      /* for entire body*/
 p,li{color: black;}                   /* for scheme matter and lists*/
 
 h1{
@@ -25,7 +25,7 @@ a:hover{color: red;
   padding-left: 20px ;
   padding-right: 20px;
   padding-bottom: 10px;
-  background-color:rgb(250, 208, 204);
+  background-color:#c0c0c0;
 }
 
 .video{

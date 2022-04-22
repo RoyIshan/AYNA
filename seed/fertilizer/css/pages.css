@@ -1,0 +1,127 @@
+/*
+Template Name:Fertilizer
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+body{
+font-family: 'Markazi Text', serif;
+  }
+h1,h2,h3,h4,h5,h6{
+padding:0;
+margin:0;
+}
+a:hover{
+text-decoration:none;
+}
+ul{
+padding:0;
+margin:0;
+list-style:none;
+}
+p{
+padding:0;
+margin:0;
+}
+.space_left{
+padding-left:0; 
+} 
+.space_right{
+padding-right:0; 
+} 
+.space_all{
+padding:0; 
+} 
+.border_none_1{
+border:none!important;
+ }
+
+
+/********************* pages_main ****************/
+#pages_main{ 
+	background-image: url(../img/59.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+ }
+.pages_main{ 
+    padding-bottom: 150px;
+    padding-top: 150px;
+    background: #000000ab;
+ }
+.pages_main_1 h2{ 
+    color: #1a9449;
+    font-size: 50px;
+    font-weight: bold;
+ }
+.pages_main_1 p{ 
+    color: #FFFFFF;
+    font-size: 25px;
+	margin-top:15px;
+ }
+.pages_main_1{
+ width:50%;
+ margin-left:auto;
+ margin-right:auto;
+ }
+/********************* pages_main_end ****************/
+/********************* pages ****************/
+#pages{ 
+background:#f1F1F1F1;
+padding-top:10px;
+padding-bottom:10px;
+font-size: 23px;
+      }
+.pages{ 
+ padding-top:10px;
+ padding-bottom:50px;
+      }
+#pages .label {
+line-height: 2;
+}
+#pages p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+#pages .page-header {
+    margin: 0px 0 0px;
+}
+/********************* pages_end ****************/
+
+
+
+@media screen and (max-width : 767px){
+.pages_main {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.pages {
+    text-align: center;
+	padding-top: 0px;
+    padding-bottom: 0px;
+}
+}
+
+
+@media (min-width:470px) and (max-width:767px) { 
+}
+ 
+@media (min-width:768px) and (max-width:960px) { 
+.pages_main {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+} 
+
+ 
+@media (min-width:961px) and (max-width:1200px) {
+.pages_main {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}

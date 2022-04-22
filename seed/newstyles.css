@@ -12,10 +12,10 @@
   .tableizer-table td {
     padding: 5px;
 
-    color: white;
+    color: rgb(51, 189, 38);
      border: rgb(0, 0, 0);
    
-    background-color: #1c3a9b;
+    background-color: #10151b;
   }
   .tableizer-table th {
     background-color: #c86a6a; 

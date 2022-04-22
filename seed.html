@@ -1,107 +1,99 @@
 <!DOCTYPE html>
 <html>
+<!-- navigation style -->
+<style type="text/css">
+
+		.header {
+		  overflow: hidden;
+		  background-color: black;
+		  padding: 10px 30px ;
+		}
+		
+		.header a {
+		  float: left;
+		  color: white;
+		  text-align: center;
+		  padding: 12px;
+		  text-decoration: none;
+		  font-size: 18px; 
+		  line-height: 25px;
+		  border-radius: 4px;
+		}
+		
+		.header a.logo {
+		  font-size: 25px;
+		  font-weight: bold;
+		}
+		.header a.logo:hover {
+		  background-color: black;
+		}
+		
+		.header a:hover {
+		  background-color: rgb(86, 246, 11);
+		  color: black;
+		}
+		
+		.header a.active {
+		  background-color: dodgerblue;
+		  color: white;
+		}
+		
+		.header-right {
+		  float: right;
+		}
+		.subnav {
+		  float: left;
+		  overflow: hidden;
+		  padding: 12px;
+		  text-decoration: none;
+		  font-size: 18px; 
+		  line-height: 25px;
+		  border-radius: 4px;
+		}
+		
+		.subnav .subnavbtn {
+		  border: none;
+		  outline: none;
+		  color: white;
+		
+		  background-color: inherit;
+		  font-family: inherit;
+		  margin: 0;
+		}
+		
+		
+		.subnav-content {
+		  display: none;
+		  position: absolute;
+		
+		  background-color: black;
+		  z-index: 1;
+		}
+		
+		.subnav-content a {
+		  float: left;
+		  color: white;
+		  text-decoration: none;
+		}
+		
+		.subnav-content a:hover {
+		  background-color: rgb(6, 240, 26);
+		  color: black;
+		}
+		
+		.subnav:hover .subnav-content {
+		  display: block;
+		}
+</style>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Seed Information</title>
   <link rel="stylesheet" href="seed/style.css">
 </head>
-
 <style>
-  *
-  .header {
-overflow: hidden;
-background-color: black;
-padding: 10px 30px ;
-}
 
-.header a {
-float: left;
-color: white;
-text-align: center;
-padding: 12px;
-text-decoration: none;
-font-size: 18px; 
-line-height: 25px;
-border-radius: 4px;
-}
-
-.header a.logo {
-font-size: 25px;
-font-weight: bold;
-}
-.header a.logo:hover {
-background-color: black;
-}
-
-.header a:hover {
-background-color: #ddd;
-color: black;
-}
-
-.header a.active {
-background-color: dodgerblue;
-color: white;
-}
-
-.header-right {
-float: right;
-}
-.subnav {
-float: left;
-overflow: hidden;
-padding: 12px;
-text-decoration: none;
-font-size: 18px; 
-line-height: 25px;
-border-radius: 4px;
-}
-
-.subnav .subnavbtn {
-border: none;
-outline: none;
-color: white;
-
-background-color: inherit;
-font-family: inherit;
-margin: 0;
-}
-
-
-.subnav-content {
-display: none;
-position: absolute;
-
-background-color: black;
-z-index: 1;
-}
-
-.subnav-content a {
-float: left;
-color: white;
-text-decoration: none;
-}
-
-.subnav-content a:hover {
-background-color: #eee;
-color: black;
-}
-
-.subnav:hover .subnav-content {
-display: block;
-}
-
-.col-container {
-display: table;
-width: 100%;
-}
-.col {
-display: table-cell;
-padding: 16px;
-}
-</style>
-
-<style>
 table, th, td {
   border: 1px solid white;
   border-collapse: collapse;
@@ -129,14 +121,11 @@ p {
            }
 </style>
 <body>
-
-  <!-- Start mainmenu -->
 <header>
-	<div class="header">
-	 <a href="#default" class="logo"><img style="height: 80px;" src="images/aynalogo.png" alt="logo"></a>
+<div class="header">
+	 <a href="index.html" class="logo"><img style="height: 80px;" src="images/footer-logo.png" alt="logo"></a>
 	 <br>
 	  <div class="header-right">
-      <a style="font-size: larger;" href="index.html">Home</a>
 	   <div class="subnav">
 		   <button style="font-size: larger;" class="subnavbtn">Weather<i class="#"></i></button>
 		   <div class="subnav-content">
@@ -144,52 +133,156 @@ p {
 		   <li><a href="weatherwebsite/currentLocationW/index.html">Your Current Location</a></li>
 		   </div>
 	   </div>
-	   <a style="font-size: larger;" href="govts.html">Goverment Schemes</a>
+	   <a href="govts.html">Goverment Schemes</a>
 	   <a style="font-size: larger;" href="solarpanel.html">Tech Knowledge</a>
+	   <a href="Feedback.html">Feedback</a>
 	   </div>
-
 </div>
 
 </header>
-<!-- End mainmenu -->
 
 
-<div class="entire">
-<h1><b>SEEDS INFORMATION</b></h1>
+<div class="top" data-aos="fade-up" >
+<img src="images/i1.jpeg" alt="seeds" height=700px width=1450px>
+
+
+
+
 </div>
+<div class="centered"><h1 style="color:white";>Seed Prices Information</h1> </div>
 
 
-<div class ="boxx">
+<div class ="centered2">
 <p align="justify">India is the world's largest producer of milk, pulses and jute, and ranks as the second largest producer of rice, wheat, sugarcane, groundnut, vegetables, fruit and cotton. It is also one of the leading producers of spices, fish, poultry, livestock and plantation crops.</p>
 </div>
 <div class="header">
-<h2>Major Crops in India</h2>
-
-
 </div>
-<section>
-  <nav>
-<ul>
-  <li>Wheat</li>
-  <li>Maize</li>
-  <li>Rice</li>
-  <li>Millet</li>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Rubber</li>
-  
+<h2>Major Crops in India</h2>
+<section id="gallery" >
+  <div class="container">
+   <div class="row">
+    <div class="col-sm-12">
+   <div class="gallery_main_2 clearfix">
+   </div> 
+      <div class="col-sm-4 padding_all">
+    <div class="gallery_1">
+                  <!-- normal -->
+                  <div class="ih-item square effect15 left_to_right"><a href="#">
+                      <div class="img"><img src="images/1.jpeg" width="100%" alt="img"></div>
+                      <div class="info">
+                          <h3>Wheat</h3>
+                        <p>Wheat is a grass widely cultivated for its seed, a cereal grain which is a worldwide staple food</p>
+                      </div></a></div>
+          </div>
+   </div>
 
-</ul>
-</nav>
-</section>
+      <div class="col-sm-4 padding_all">
+        <div class="centered3">
+    <div class="gallery_1">
+                  <!-- normal -->
+                  <div class="ih-item square effect15 left_to_right"><a href="#">
+                      <div class="img"><img src="images/2.jpeg" width="100%" alt="img"></div>
+                      <div class="info">
+                          <h3>Maize</h3>
+                        <p> Maize is widely cultivated throughout the world, and a greater weight of maize is produced each year than any other grain.</p>
+                      </div></a></div>
+          </div>
+          </div>
 
+   
+
+   <div class="col-sm-4 padding_all">
+    <div class="centered4">
+    <div class="gallery_1">
+                  <!-- normal -->
+                  <div class="ih-item square effect15 left_to_right"><a href="#">
+                      <div class="img"><img src="images/3.jpeg" width="100%" alt="img"></div>
+                      <div class="info">
+                          <h3>Rice</h3>
+                        <p>As a cereal grain, domesticated rice is the most widely consumed staple food for over half of the world's human population</p>
+                      </div></a></div>
+          </div>
+   </div>
+   </div>
+   
+   <div class="col-sm-4 padding_all">
+    <div class="centered5">
+    <div class="gallery_1">
+                  <!-- normal -->
+                  <div class="ih-item square effect15 left_to_right"><a href="#">
+                      <div class="img"><img src="images/4.jpeg" width="100%" alt="img"></div>
+                      <div class="info">
+                        <h3>Millet</h3>
+                        <p>Millets are a group of highly variable small-seeded grasses, widely grown around the world as cereal crops or grains for fodder and human food.</p>
+                      </div></a></div>
+          </div>
+   </div>
+   </div>
+
+   <div class="col-sm-4 padding_all">
+    <div class="centered6">
+
+    <div class="gallery_1">
+                  <!-- normal -->
+                  <div class="ih-item square effect15 left_to_right"><a href="#">
+                      <div class="img"><img src="images/5.jpeg" width="100%" alt="img"></div>
+                      <div class="info">
+                         <h3>Coffee</h3>
+                        <p>Coffee is a brewed drink prepared from roasted coffee beans.</p>
+                      </div></a></div>
+          </div>
+</div>
+ </div>
+   <div class="col-sm-4 padding_all">
+    <div class="centered7">
+    <div class="gallery_1">
+                  <!-- normal -->
+                  <div class="ih-item square effect15 left_to_right"><a href="#">
+                      <div class="img"><img src="images/6.jpeg" width="100%" alt="img"></div>
+                      <div class="info">
+                          <h3>Tea</h3>
+                        <p> Tea is an aromatic beverage prepared by pouring hot water over fresh leaves of Camellia sinensis</p>
+                      </div></a></div>
+          </div>
+   </div>
+   </div>
+   
+   <div class="col-sm-4 padding_all">
+    <div class="centered8"> 
+        <div class="gallery_1">
+                  <!-- normal -->
+                  <div class="ih-item square effect15 left_to_right"><a href="#">
+                      <div class="img"><img src="images/7.jpeg" width="100%" alt="img"></div>
+                      <div class="info">
+                          <h3>Rubber</h3>
+                        <p>Rubber is harvested mainly in the form of the latex from the rubber tree</p>
+                      </div></a></div>
+          </div>
+        </div>
+   </div>
+   
+
+    
+   </div>
+  </div>
+   </div>
+  </div>
+ </section>
+
+
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 
 <div class="header">
 
 <h2>Types of Wheat Seed </h2>
 
 </div>
-<img src="https://m.economictimes.com/thumb/msid-87478409,width-1200,height-900,resizemode-4,imgsize-290124/istock-528475944.jpg" alt="wheat image"align=right height=696px width=650px>
+<img src="https://m.economictimes.com/thumb/msid-87478409,width-1200,height-900,resizemode-4,imgsize-290124/istock-528475944.jpg" alt="wheat image"align=right height=637px width=650px>
 
 
 <div class="boxx">
@@ -210,13 +303,10 @@ p {
 <p>The variety is famous for its ability of resistance to black and brown rusts and also has a good level of resistance to flag smut, Karnal bunt, leaf blight, and foot rot diseases. It has excellent chapatti-making quality, good sedimentation value (-55 ml), high protein (-13%), and a high amount of micronutrients like iron (43 ppm) and zinc ( 35 ppm).</p>
 </div>
 
+<h2>Types of Maize Seed</h2>
 
 
-<div class="header">
-<h2>Types of Maize Seed </h2>
-
-</div>
-<img src="https://media.istockphoto.com/photos/the-corn-plant-in-the-field-picture-id1150439636?k=20&m=1150439636&s=612x612&w=0&h=-LEJKwoUWUUR_puGnrujT9O0J9l9NQ4_RA9q2uSiBoo="align="Right" height=661px width=650px>
+<img src="https://media.istockphoto.com/photos/the-corn-plant-in-the-field-picture-id1150439636?k=20&m=1150439636&s=612x612&w=0&h=-LEJKwoUWUUR_puGnrujT9O0J9l9NQ4_RA9q2uSiBoo="align="Right" height=640px width=650px>
 
 <div class ="boxx">
 <p>The six major types of maize are Pod corn, Dent Corn , Flint Corn , Popcorn , Flour Corn , and Sweet Corn .</p>
@@ -244,7 +334,7 @@ Pod corn is not grown commercially, but it is preserved in some localities</p>
 <div class="header">
 <h2>Types of Rice Seed</h2>
 </div>
-<img src="https://media.istockphoto.com/photos/ripe-rice-in-the-field-of-farmland-picture-id622925154?k=20&m=622925154&s=612x612&w=0&h=hLtkpC3VdXeqWhblSowvPRu4XgsCwFW6JQM-Px2KzbY=" alt="southsideplants.com" align="Right" height=676px width=650px>
+<img src="https://media.istockphoto.com/photos/ripe-rice-in-the-field-of-farmland-picture-id622925154?k=20&m=622925154&s=612x612&w=0&h=hLtkpC3VdXeqWhblSowvPRu4XgsCwFW6JQM-Px2KzbY=" alt="southsideplants.com" align="Right" height=636px width=650px>
 
 <div class ="boxx">
 <p>Rice is used widely in Asian and Indian cuisines, but it can be found in all kinds of dishes from around the world. Paella and curry rely on it heavily. You can’t make sushi without rice. Rice can really bring a burrito together, and jambalaya wouldn’t be the same without it.</p>
@@ -277,7 +367,7 @@ Pod corn is not grown commercially, but it is preserved in some localities</p>
 <div class="header">
 <h2>Types of Millets</h2>
 </div>
-<img src="https://miro.medium.com/max/1001/0*Fxlq2PhcNRZxhB88.jpg" alt="Maize plant"align="Right" height=621px width=650px >
+<img src="https://miro.medium.com/max/1001/0*Fxlq2PhcNRZxhB88.jpg" alt="Maize plant"align="Right" height=617px width=650px >
 <div class=boxx>
 <p>Millets come in different shapes and sizes. The two broad categories discussed above contain numerous kinds of millets. We will take a look at some of these different types below:</p>
 
@@ -302,7 +392,7 @@ Pod corn is not grown commercially, but it is preserved in some localities</p>
 <div class="header">
 <h2>Types Of Coffees</h2>
 </div>
-<img src="https://media.istockphoto.com/photos/coffee-beans-on-twig-picture-id1136899466?k=20&m=1136899466&s=612x612&w=0&h=QKRB4z1BZv-h0sANNPxzyILT-KRhm4zKJpnePDWIC08=" alt="Tea Plant"align="Right" height=637px width=650px>
+<img src="https://media.istockphoto.com/photos/coffee-beans-on-twig-picture-id1136899466?k=20&m=1136899466&s=612x612&w=0&h=QKRB4z1BZv-h0sANNPxzyILT-KRhm4zKJpnePDWIC08=" alt="Tea Plant"align="Right" height=615px width=650px>
 
 <div class="boxx">
 <p>The four main coffee types are Arabica, Robusta, Excelsa, and Liberica and all four of them have radically different taste profiles. Arabica is mild coffee, but the beans being more aromatic, it has higher market value compared to Robusta beans. On the other hand Robusta has more strength and is, therefore, used in making various blends.</p>
@@ -324,7 +414,7 @@ Pod corn is not grown commercially, but it is preserved in some localities</p>
 <div class="header">
 <h2>Types of Teas</h2>
 </div>
-<img src="https://www.bakhabarkissan.com/wp-content/uploads/2018/08/tea-crop.jpg" alt="Tea Plant"align="Right" height=390px width=650px>
+<img src="https://www.bakhabarkissan.com/wp-content/uploads/2018/08/tea-crop.jpg" alt="Tea Plant"align="Right" height=350px width=650px>
 <div class ="boxx">
 <p>There are over 3000 varieties of tea, each with its own specific characteristics. The naming and growing of teas is in many ways similar to wine. Just as Bordeaux wine is named after the Bordeaux region in France and Champagne can only be produced in the province of Champagne, many teas are also named after the area they are grown in. For example, Assam tea is named after the Assam region in India and Yunnan tea is named after the Chinese province. Like wine, where the tea is grown, the climate, soil conditions and how the tea is processed will altogether determine its flavor characteristics.Basically there are 2 types of tea seeds which are used for growing tea plants which are as follows:</p>
 
@@ -437,5 +527,9 @@ align="Right" height=511px width=650px>
 
 	
 </iframe>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

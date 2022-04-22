@@ -1,0 +1,171 @@
+/*
+Template Name:Fertilizer
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+body{
+font-family: 'Markazi Text', serif;
+  }
+h1,h2,h3,h4,h5,h6{
+padding:0;
+margin:0;
+}
+a:hover{
+text-decoration:none;
+}
+ul{
+padding:0;
+margin:0;
+list-style:none;
+}
+p{
+padding:0;
+margin:0;
+}
+.space_left{
+padding-left:0; 
+} 
+.space_right{
+padding-right:0; 
+} 
+.space_all{
+padding:0; 
+} 
+.border_none_1{
+border:none!important;
+ }
+
+
+/********************* contact_main ****************/
+#contact_main{ 
+	background-image: url(../img/60.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+ }
+.contact_main{ 
+    padding-bottom: 150px;
+    padding-top: 150px;
+    background: #000000ab;
+ }
+.contact_main_1 h2{ 
+    color: #1a9449;
+    font-size: 50px;
+    font-weight: bold;
+ }
+.contact_main_1 p{ 
+    color: #adccb9;
+    font-size: 25px;
+    margin-top:15px;
+ }
+.contact_main_1{
+ width:50%;
+ margin-left:auto;
+ margin-right:auto;
+ }
+/********************* contact_main_end ****************/
+/********************* contact ****************/
+#contact{ 
+padding-top:20px;
+padding-bottom:50px;
+background-color:#f1f1f13b;
+  }
+.contact_1 h2{ 
+font-size:40px;
+font-weight:bold;
+padding-bottom:50px;
+  }
+.contact_2 input {
+padding-top: 25px;
+padding-bottom: 25px;
+margin-bottom: 10px;
+    font-size: 23px;
+}
+.contact_2 textarea {
+height: 155px;
+width: 100%;
+    font-size: 23px;
+}
+.contact_3 p{
+ padding-top:30px;
+ }
+.contact_3 p a{
+border: 2px solid #1a9449;
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    border-radius: 3px;
+    color: #000;
+    font-size: 25px;
+ }
+.contact_3 p a:hover{
+background: #1a9449;
+color: #fff;
+border:2px solid #1a9449;
+ }
+.contact_4 h5{
+    color: #1a9449;
+    font-size: 38px;
+    font-weight: bold;
+    padding-bottom: 5px;
+ }
+.contact_4 p{
+color: #000;
+font-size:25px;
+padding-bottom:15px;
+ }
+/********************* contact_end ****************/
+
+
+
+@media screen and (max-width : 767px){
+.contact_main {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+	text-align:center;
+}
+.contact_1 h2 {
+    padding-bottom: 10px;
+}
+.contact_3 p{
+    padding-bottom:30px;
+}
+}
+
+
+@media (min-width:470px) and (max-width:767px) { 
+}
+ 
+@media (min-width:768px) and (max-width:960px) { 
+.contact_main {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+} 
+
+ 
+@media (min-width:961px) and (max-width:1200px) {
+.contact_main {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+#contact {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+}

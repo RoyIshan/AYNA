@@ -1,0 +1,202 @@
+/*
+Template Name:Fertilizer
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+body{
+font-family: 'Markazi Text', serif;
+  }
+h1,h2,h3,h4,h5,h6{
+padding:0;
+margin:0;
+}
+a:hover{
+text-decoration:none;
+}
+ul{
+padding:0;
+margin:0;
+list-style:none;
+}
+p{
+padding:0;
+margin:0;
+}
+.space_left{
+padding-left:0; 
+} 
+.space_right{
+padding-right:0; 
+} 
+.space_all{
+padding:0; 
+} 
+.border_none_1{
+border:none!important;
+ }
+
+
+/********************* team_main ****************/
+#team_main{ 
+	background-image: url(../img/48.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+ }
+.about_main{ 
+    padding-bottom: 150px;
+    padding-top: 150px;
+    background: #000000ab;
+ }
+.about_1 h2{ 
+    color: #1a9449;
+    font-size: 50px;
+    font-weight: bold;
+ }
+.about_1 p{ 
+    color: #adccb9;
+    font-size: 25px;
+ }
+.about_1{
+ width:50%;
+ margin-left:auto;
+ margin-right:auto;
+ }
+/********************* team_main_end ****************/
+/********************* team ****************/
+#team{ 
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+.team_1{
+ width:50%;
+ margin-left:auto;
+ margin-right:auto;
+ }
+.team_1 h2{ 
+	padding:0;
+	margin:0;
+	color: #1a9449;
+	font-size:50px;
+	line-height: 1.3;
+	padding-bottom: 1.4285714285714286vw;
+  }
+.team_1 p{ 
+	padding:0;
+	margin:0;
+	color: #828282;
+	font-size: 23px;
+	line-height: 1.3;
+	padding-bottom:2.142857142857143vw;
+  }
+.team_2 h3{
+    padding-bottom: 13px;
+    padding-top: 19px;
+  }
+.team_2 h3 a{ 
+	padding:0;
+	margin:0;
+	text-decoration:none;
+	color: #323b42;
+	font-size: 1.8571428571428572vw;
+	line-height: 1;
+	font-weight:bold;
+  }
+.team_2 h3 a:hover{ 
+    color: #eb4f56;
+  }
+.team_2 p{ 
+    padding: 0;
+    margin: 0;
+    color: #828282;
+    font-size: 21px;
+    line-height: 1.4;
+    padding-bottom: 18px;
+  }
+.team_2 h2 a {
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #1a9449;
+    text-decoration: none;
+    padding:10px 30px;
+    border-radius: 5px;
+	display:inline-block;
+}
+.team_2 h2 a:hover {
+    color: #ffffff;
+    background-color: rgba(0,170,78,.8);
+}
+.team_2 img {
+	filter: gray;
+	-webkit-filter: grayscale(1);
+	-webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+}
+img:hover {
+	filter: none;
+	-webkit-filter: grayscale(0);
+}
+/********************* team_end ****************/
+
+
+@media screen and (max-width : 767px){
+.about_main {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.team_1 h2 {
+    font-size: 32px;
+}
+.team_2 h3 a {
+    font-size: 33px;
+}
+.team_2 h2{ 
+    padding-bottom:20px;
+}
+#team {
+    padding-bottom: 20px;
+}
+}
+
+
+@media (min-width:470px) and (max-width:767px) { 
+}
+ 
+@media (min-width:768px) and (max-width:960px) { 
+.about_main {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.team_2 h3 a {
+    font-size: 22px;
+}
+.team_2 p {
+    font-size: 19px;
+    line-height: 1.0;
+}
+} 
+
+ 
+@media (min-width:961px) and (max-width:1200px) {
+.about_main {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.team_2 h3 a {
+    font-size: 22px;
+}
+.team_2 p {
+    font-size: 19px;
+    line-height: 1.0;
+}
+.team_2 h2 a {
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+}
+}
+
+@media (min-width:1201px) and (max-width:1320px) {
+
+}
